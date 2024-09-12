@@ -8,8 +8,8 @@
 /* ELEMENTOS DA INTERFACE */
 
 body {
-    background-color: #15142b;
-    background-image: linear-gradient(180deg, #372991, #15142b);
+    background-color: #26142b;
+    background-image: linear-gradient(180deg, #bb86e7, #673283);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -42,7 +42,7 @@ main, section, article {
 footer {
     display: block;
     width: 100vw;
-    background-color: #291f6c;
+    background-color: #5f1f6c;
     color: white;
     text-align: center;
     margin-top: auto;
@@ -55,7 +55,7 @@ p {
 }
 
 h2, h3, h4 {
-    color: #372991;
+    color: #611b7c;
     margin: 0 0 10px 0;
 }
 
@@ -65,12 +65,12 @@ a {
     padding: 0 3px;
     font-weight: 600;
     text-decoration: none;
-    border-bottom: .5px dotted #372991;
+    border-bottom: .5px dotted #702991;
 }
 
 a:hover {
-    color: #372991;
-    border-bottom: 1px solid #372991;
+    color: #672991;
+    border-bottom: 1px solid #5f2991;
 }
 
 /* TABELAS E LISTAS */
@@ -98,7 +98,7 @@ table tr {
 }
 
 table tr:nth-child(odd) {
-    background-color: rgba(55, 41, 145, 0.3);
+    background-color: rgba(107, 41, 145, 0.3);
 }
 
 table.divisao {
@@ -126,13 +126,13 @@ table.divisao tr:nth-child(2) td:nth-child(1) {
 }
 
 ul > li::marker {
-    color: #372991;
+    color: #5f2991;
 }
 
 /* ELEMENTOS DE FORMULÁRIO */
 
 form {
-    background-color: rgba(55, 41, 145, 0.2);
+    background-color: rgba(112, 41, 145, 0.2);
     padding: 15px;
     border-radius: 10px;
 }
@@ -142,7 +142,7 @@ form label {
     width: auto;
     font-size: 0.8em;
     font-weight: 100;
-    background-color: rgba(55, 41, 145, 0.2);
+    background-color: rgba(124, 41, 145, 0.2);
     padding: 3px 7px;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -194,7 +194,7 @@ input[type=reset]:hover {
 
 input[type=button], button {
     width: 100%;
-    background-color: #372991;
+    background-color: #42195e;
     font-size: 1em;
     color: white;
     padding: 10px 20px;
